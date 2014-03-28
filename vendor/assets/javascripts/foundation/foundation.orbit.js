@@ -386,6 +386,7 @@
       el.addClass(settings.timer_paused_class);
       left = -1;
       self.update_progress(0);
+      self.start();
     };
 
     this.start = function() {
